@@ -1,0 +1,61 @@
+//bootstrap初期値に戻す
+.sr-only {
+    border: medium none currentcolor !important;
+    clip: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    padding: 0;
+    position: static !important;
+    width: auto !important;
+}
+
+.img-thumbnail {
+    max-width: none !important;
+}
+
+//end bootstrap初期値に戻す
+
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, "Yu Gothic Medium", "Yu Gothic", "游ゴシック体", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-feature-settings: "palt";
+    -webkit-font-feature-settings: "palt";
+    -moz-font-feature-settings: "palt";
+    font-size: 14px;
+    color: #000000;
+    word-break: break-all;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+
+    span {
+        font-size: 24px;
+    }
+
+    span.heading {
+        display: inline-block;
+        font-weight: normal;
+    }
+
+    span.sub-heading {
+        font-size: 14px;
+        font-weight: normal;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+}
+
+.container {
+    margin: 0 164px;
+}
+
+.no-header {
+    height: 100%;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
